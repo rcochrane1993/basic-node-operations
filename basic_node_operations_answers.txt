@@ -1,0 +1,14 @@
+1. Sort lists the file alphabetically based on line. when i ran it the lines showed up in alphabetical order.
+Wc- prints the number of lines, words and characters in a file. hwne ran on commands.js the result is `39 98 1058`
+uniq- removes adjacent repeated lines. Since no lines are repeated adjacently, the console simply printed the whole file.
+
+2. i used the command `$ sort commands.js | uniq` which first sorted the lines of the file alphabetically then removed any files
+that were repeated, since they were listed alphbetically any repeated lines were already adjacent and therefore one of the lines was removed
+i believe the only line that was removed was once of the instances of `break`
+
+reverse string
+
+function reverseString(inputString) {
+  var arr = inputString.split('');
+  return arr.reverse().join('')
+}
